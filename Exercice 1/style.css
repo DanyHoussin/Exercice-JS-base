@@ -1,0 +1,17 @@
+#wrapper {
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    background-color: rgb(136, 174, 136);
+    color: white;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+}

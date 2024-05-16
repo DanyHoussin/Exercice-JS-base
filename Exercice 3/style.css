@@ -1,0 +1,29 @@
+#wrapper {
+    justify-content: center;
+    
+}
+.list1 {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    padding-bottom: 10px;
+}
+.list2 {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.box {
+    text-align: center;
+    align-content: center;
+    background-color: rgb(7, 134, 0);
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+
+.boxRed{
+    background-color: rgb(134, 0, 0);
+}

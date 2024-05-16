@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+}
+
+#wrapper {
+    padding: 16% 0%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(197, 197, 197);
+    color: white;
+    transition: 1s;
+}
+
+h1{
+    padding-bottom: 40px;
+}
+
+.list1 {
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+i{
+    font-size: 400%;
+}
+
+.list1 p{
+    font-size: 150%;
+    transition: 1s;
+    opacity: 0%;
+}
+
+.logo{
+    transition: 1s;
+    transform: translate(0px, 10px);
+}
+
+.facebookBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: #3b5998;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    box-shadow: none;
+}
+.twitterBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: #00acee;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    box-shadow: none;
+}
+.instagramBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #c32aa3;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
