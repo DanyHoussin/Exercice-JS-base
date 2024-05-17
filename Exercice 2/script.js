@@ -8,11 +8,11 @@ const boxes = document.querySelectorAll("#box");
 // Pour chaque élément box, on applique le code suivant
 boxes.forEach((box) => {
 
-    // A chaque fois qu'on clique sur la box
+    // A chaque fois qu'on clique sur la box...
     box.addEventListener('click', function() {
 
-        // L'élément box
-        colorBox.style.setProperty('Background-color', window.getComputedStyle(box, null).getPropertyValue("Background-color"));
-        colorBox.innerHTML = window.getComputedStyle(box, null).getPropertyValue("Background-color");
+        // L'élément colorBox va changer de valeur dans la propriété background-color part la valeur de la box selectionner
+        colorBox.style.setProperty('background-color', window.getComputedStyle(box, null).getPropertyValue("background-color"));
+        colorBox.innerHTML = window.getComputedStyle(box, null).getPropertyValue("background-color");
     });
 });
