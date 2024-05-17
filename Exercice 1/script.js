@@ -4,7 +4,7 @@ const box = document.querySelector(".box");
 // On va récuperer le css de la classe box
 const boxValue = window.getComputedStyle(box, null)
 
-// Quand on va cliquer sur l'element box, le code s'execute
+// Quand on va cliquer sur l'élément box, le code s'execute
 box.addEventListener('click', function() {
 
     // Affiche une alerte sur le navigateur

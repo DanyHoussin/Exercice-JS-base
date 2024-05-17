@@ -26,4 +26,6 @@
 
 .boxRed{
     background-color: rgb(134, 0, 0);
+    transition: 2s;
+    transform: scale(90%) rotate(360deg);
 }
